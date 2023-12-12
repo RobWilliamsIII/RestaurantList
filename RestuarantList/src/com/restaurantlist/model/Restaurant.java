@@ -3,9 +3,12 @@ package com.restaurantlist.model;
 public class Restaurant {
 
 	public static void main(String[] args) {
-		System.out.println("Restaurant name: Tangerine");
-		System.out.println("Business address: 2777 Iris Ave");
-		System.out.println("City, State, Zip Coode: Boulder, CO, 80304");
+		String restaurantName = "Tangerine";
+		String restaurantAddress = "2777 Iris Ave";
+		String restaurantCityStateZip = "Boulder, CO, 80304";
+		System.out.println(restaurantName);
+		System.out.println(restaurantAddress);
+		System.out.println(restaurantCityStateZip);
 
 	}
 
